@@ -1,0 +1,28 @@
+# Site Settings
+title:               Coffee With Creation
+tagline:             
+description:
+baseurl:            #"/pl"
+url:                #"https://jakub-wisniewski.github.io"
+github:
+  url:               "https://jakub-wisniewski.github.io/CoffeeWithCreation"
+author:
+  name:              "Jakub Wiśniewski"
+  email:             "mailme.jwis@gmail.com"
+  twitter:           ""
+  github:            "jakub-wisniewski"
+  facebook:          "wisniewskiblog"
+paginate:            5
+
+
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           none
+gems:                [jekyll-paginate]
+
+#comments
+comments :
+    provider : disqus
+    disqus :
+      short_name : jakubwisniewski-blog
