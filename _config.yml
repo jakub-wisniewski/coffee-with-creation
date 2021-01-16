@@ -5,7 +5,7 @@ description:
 baseurl:            #"/pl"
 url:                #"https://jakub-wisniewski.github.io"
 github:
-  url:               "https://jakub-wisniewski.github.io/CoffeeWithCreation"
+  url:               "https://jakub-wisniewski.github.io/coffee-with-creation"
 author:
   name:              "Jakub Wiśniewski"
   email:             "mailme.jwis@gmail.com"
