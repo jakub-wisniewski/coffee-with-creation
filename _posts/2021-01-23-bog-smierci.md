@@ -2,10 +2,12 @@
 layout: post
 title: Bóg ewolucji jest bogiem śmierci
 image:
-  feature: death.jpg
-  teaser: death.jpg
+  feature: skull.jpg
+  teaser: skull.jpg
 published: true
 ---
+
+![skull.jpg]({{site.baseurl}}/images/skull.jpg)
 
 Zgodnie z tym co przekazuje Biblia, śmierć weszła na świat z powodu grzechu pierwszego człowieka.
 Zgodnie z tym czego nauczają przedstawiciele religii teistycznego ewolucjonizmu (która z chrześcijaństwem, oczywiście, nie ma nic wspólnego) natomiast, śmierć istniała od początku stworzenia i jest procesem, którym Bóg posłużył się, aby stworzyć pierwszego człowieka. 
