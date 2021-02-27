@@ -12,18 +12,21 @@
   <!--   <div class="post-container">
       {{ content }}
     </div> -->
-    {% assign posts=site.posts | where:"i18n-link", page.i18n-link | sort: 'lang' %}
+{% assign posts=site.posts | where:"i18n-link", page.i18n-link | sort: 'lang' %}
 
 {% if posts.size == 0 %}
   {% assign posts=site.pages | where:"i18n-link", page.i18n-link | sort: 'lang' %}
 {% endif %}
 
 <div class="lang">
-  <ul>
+  <div class="post-container">
     {% for post in posts %}
-      <li><a class="{{ post.lang }}" href="{{ site.base-url }}{{ post.url }}">{{ post.lang }}</a></li>
+      <a class="{{ post.lang }}" href="{{ site.base-url }}{{ post.url }}">
+      	<h1>{{ post.title }}</h1>
+      </a>
+      <a href="https://coffeewithcreation.com/pl/bog-smierci.html">Bóg ewolucji jest bogiem śmierci</a>
     {% endfor %}
-  </ul>
+  </div>
 </div>
 
 
