@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ewolucja jest po prostu zmianą
+i18n-link: evolution-is-just-a-change
 image:
   feature: turtle.jpg
   teaser: turtle.jpg

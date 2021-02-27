@@ -2,8 +2,8 @@
 title:               Coffee With Creation
 tagline:             
 description:
-# baseurl:            #"/pl"
-# url:                #"https://jakub-wisniewski.github.io"
+baseurl:            ""
+url:                "https://coffeewithcreation.com"
 github:
   url:               "https://coffeewithcreation.com"
 author:
@@ -13,6 +13,7 @@ author:
   # github:            "jakub-wisniewski"
   facebook:          "CoffeeWithCreation"
 paginate:            5
+
 defaults:
   -
    scope:
@@ -25,7 +26,12 @@ defaults:
      path: en
    values:
      lang: en
-     base-url: "/en/"
+     base-url: "/en"
+  # scope:
+   #   path: en
+   # values:
+   #   lang: en
+   #   base-url: "/en/"
 
 
 # Build settings
@@ -39,3 +45,23 @@ comments :
     provider : disqus
     disqus :
       short_name : jakubwisniewski-blog
+
+# Value to use into url per language
+langs-value:
+    en: ""
+    pl: pl
+
+# Translation
+t:
+  home:
+    en: "Home"
+    pl: "Strona główna"
+  contact:
+    en: "Contact"
+    pl: "Kontakt"
+  subtitle:
+    en: "Creation, evolution and a cup of coffee."
+    pl: "Stworzenie, ewolucja i filiżanka kawy."
+
+
+
