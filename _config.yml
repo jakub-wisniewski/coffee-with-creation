@@ -1,6 +1,6 @@
 # Site Settings
 title:               Coffee With Creation
-tagline:             ©
+tagline:             
 description:
 baseurl:            #"/pl"
 url:                #"https://jakub-wisniewski.github.io"
@@ -8,9 +8,9 @@ github:
   url:               "https://coffeewithcreation.com"
 author:
   name:              "Jakub Wiśniewski"
-  email:             "mailme.jwis@gmail.com"
+  email:             "wisniewski_jakub@outlook.com"
   twitter:           ""
-  github:            "jakub-wisniewski"
+  # github:            "jakub-wisniewski"
   facebook:          "CoffeeWithCreation"
 paginate:            5
 
