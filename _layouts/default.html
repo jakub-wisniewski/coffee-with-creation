@@ -1,8 +1,3 @@
-{% assign postsTrans=site.posts | where:"i18n-link", page.i18n-link | sort: 'lang' %}
-
-{% if postsTrans.size == 0 %}
-  {% assign postsTrans=site.pages | where:"i18n-link", page.i18n-link | sort: 'lang' %}
-{% endif %}
 
 <!doctype html>
 <html>
@@ -14,9 +9,23 @@
   <div class="container">
     {% include header.html %}
 
-    <div class="post-container">
+  <!--   <div class="post-container">
       {{ content }}
-    </div>
+    </div> -->
+    {% assign posts=site.posts | where:"i18n-link", page.i18n-link | sort: 'lang' %}
+
+{% if posts.size == 0 %}
+  {% assign posts=site.pages | where:"i18n-link", page.i18n-link | sort: 'lang' %}
+{% endif %}
+
+<div class="lang">
+  <ul>
+    {% for post in posts %}
+      <li><a class="{{ post.lang }}" href="{{ site.base-url }}{{ post.url }}">{{ post.lang }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
 
     {% include footer.html %}
 
