@@ -2,8 +2,8 @@
 title:               Coffee With Creation
 tagline:             
 description:
-baseurl:            #"/pl"
-url:                #"https://jakub-wisniewski.github.io"
+# baseurl:            #"/pl"
+# url:                #"https://jakub-wisniewski.github.io"
 github:
   url:               "https://coffeewithcreation.com"
 author:
@@ -13,6 +13,19 @@ author:
   # github:            "jakub-wisniewski"
   facebook:          "CoffeeWithCreation"
 paginate:            5
+defaults:
+  -
+   scope:
+     path: pl
+   values:
+     lang: pl
+     base-url: "/pl/"
+  -
+   scope:
+     path: en
+   values:
+     lang: en
+     base-url: "/en/"
 
 
 # Build settings
