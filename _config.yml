@@ -1,37 +1,18 @@
 # Site Settings
 title:               Coffee With Creation
-tagline:             
+tagline:             Stworzenie, nauka i filiżanka kawy.
 description:
-baseurl:            ""
-url:                "https://coffeewithcreation.com"
+baseurl:            #""
+url:                #"https://jakub-wisniewski.github.io"
 github:
   url:               "https://coffeewithcreation.com"
 author:
   name:              "Jakub Wiśniewski"
-  email:             "wisniewski_jakub@outlook.com"
+  email:             "mailme.jwis@gmail.com"
   twitter:           ""
-  # github:            "jakub-wisniewski"
+  github:            "jakub-wisniewski"
   facebook:          "CoffeeWithCreation"
 paginate:            5
-
-defaults:
-  -
-   scope:
-     path: pl
-   values:
-     lang: pl
-     base-url: "/pl/"
-  -
-   scope:
-     path: en
-   values:
-     lang: en
-     base-url: "/en"
-  # scope:
-   #   path: en
-   # values:
-   #   lang: en
-   #   base-url: "/en/"
 
 
 # Build settings
@@ -45,23 +26,3 @@ comments :
     provider : disqus
     disqus :
       short_name : jakubwisniewski-blog
-
-# Value to use into url per language
-langs-value:
-    en: ""
-    pl: pl
-
-# Translation
-t:
-  home:
-    en: "Home"
-    pl: "Strona główna"
-  contact:
-    en: "Contact"
-    pl: "Kontakt"
-  subtitle:
-    en: "Creation, evolution and a cup of coffee."
-    pl: "Stworzenie, ewolucja i filiżanka kawy."
-
-
-
